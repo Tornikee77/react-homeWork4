@@ -12,7 +12,7 @@ const Notification = () => {
     <div
       className={`fixed top-10 left-1/2 transform -translate-x-1/2 z-50 px-6 py-4 rounded-xl shadow-md ${bgColor}`}
     >
-      <p className={`text-[20px]  `}>{message}</p>
+      <p className={`text-[20px] `}>{message}</p>
     </div>
   );
 };
